@@ -10,15 +10,15 @@ subtitle: Core scripts of data analysis pipeline
 Table of contents
 -----------------
 
--   [Genotype-specific RTD study pipeline]
--   [sRTD and cRTD assembly]
--   [RNA-seq read mapping]
--   [Transcript assembly]
--   [Comparisons of sRTD and cRTD]
--   [Alternative splicing event analysis using Suppa]
--   [Transcript comparisons]
--   [Quantification comparisons]
--   [References]
+-   [Genotype-specific RTD study pipeline](#pipeline)
+-   [sRTD and cRTD assembly](#assembly)
+-   [RNA-seq read mapping](#mapping)
+-   [Transcript assembly](#trans_assembly)
+-   [Comparisons of sRTD and cRTD](#comparison)
+-   [Alternative splicing event analysis using Suppa](#as_events)
+-   [Transcript comparisons](#trans_comparisons)
+-   [Quantification comparisons](#quant_comparisons)
+-   [References](#references)
 
 <div align="justify">
 
