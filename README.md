@@ -10,15 +10,16 @@ subtitle: Core scripts of data analysis pipeline
 Table of contents
 -----------------
 
--   [Genotype-specific RTD study pipeline](#pipeline)
--   [sRTD and cRTD assembly](#assembly)
--   [RNA-seq read mapping](#mapping)
--   [Transcript assembly](#trans_assembly)
--   [Comparisons of sRTD and cRTD](#comparison)
--   [Alternative splicing event analysis using Suppa](#as_events)
--   [Transcript comparisons](#trans_comparisons)
--   [Quantification comparisons](#quant_comparisons)
+-   [Genotype-specific RTD study pipeline](#genotype-specific-rtd-study-pipeline)
+-   [sRTD and cRTD assembly](#srtd-and-crtd-assembly)
+    -   [RNA-seq read mapping](#rna-seq-read-mapping)
+    -   [Transcript assembly](#transcript-assembly)
+-   [Comparisons of sRTD and cRTD](#comparisons-of-srtd-and-crtd)
+    -   [Alternative splicing event analysis using Suppa](#alternative-splicing-event-analysis-using-suppa)
+    -   [Transcript comparisons](#transcript-comparisons)
+    -   [Quantification comparisons](#quantification-comparisons)
 -   [References](#references)
+
 
 <div align="justify">
 
@@ -59,9 +60,7 @@ The trimmed RNA-seq reads of 20 samples were mapped the Barke and Morex referenc
   - Minimum intron size: alignIntronMin = 60.  
   - Maximum intron size: alignIntronMax = 6000. 
   - Permitted mapping mismatches: outFilterMismatchNmax = 2 in pass1 and = 0 in pass2. 
-  - The details of the other parameters can be found in:
-  
-  https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf 
+  - The details of the other parameters can be found in: https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf 
 
   
 
