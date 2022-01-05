@@ -60,6 +60,7 @@ The trimmed RNA-seq reads of 20 samples were mapped the Barke and Morex referenc
   - Maximum intron size: alignIntronMax = 6000. 
   - Permitted mapping mismatches: outFilterMismatchNmax = 2 in pass1 and = 0 in pass2. 
   - The details of the other parameters can be found in:
+  
   https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf 
 
   
